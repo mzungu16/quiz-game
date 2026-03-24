@@ -78,7 +78,7 @@ function startBtnOnClick() {
     console.log("quiz started");
     currentQuestionIndex = 0;
     score = 0;
-    scoreValue.textContex = 0;
+    scoreValue.textContent = 0;
     startScreen.classList.remove("active");
     quizScreen.classList.add("active");
 
